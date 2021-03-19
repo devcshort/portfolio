@@ -37,7 +37,14 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>{this.props.styles}</Head>
+        <Head>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+          />
+          {this.props.styles}
+        </Head>
         <body>
           <Main />
           <NextScript />
