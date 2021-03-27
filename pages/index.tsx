@@ -25,7 +25,7 @@ function Home() {
       </Box>
 
       <h1 style={{ textAlign: 'center' }}>Chris R. Short</h1>
-      <h3 style={{ textAlign: 'center' }}>Front-End Developer</h3>
+      <h3 style={{ textAlign: 'center' }}>Software Developer</h3>
       <p
         style={{
           maxWidth: 600,

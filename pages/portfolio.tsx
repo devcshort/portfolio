@@ -123,6 +123,47 @@ function Portfolio() {
           }}
         >
           <div style={{ width: 150, height: 150, marginRight: 10 }}>
+            <img src="/wa211.png" alt="" width="100%" height="auto" />
+          </div>
+          <div style={{ flex: 1 }}>
+            <h3 style={{ margin: 0 }}>Washington 2-1-1 Search</h3>
+            <p style={{ margin: 0, fontWeight: 600, fontSize: '.8rem' }}>
+              Web Application
+            </p>
+            <p style={{ fontSize: '1rem', marginBottom: '.5rem' }}>
+              Washington 2-1-1 is working towards building a better future for
+              all 2-1-1&apos;s. For years, the data they work with has been
+              stored in databases and primarily used to power their call
+              centers. I lead this project in converting their data to a modern
+              and easily searchable format. I also created both the backend and
+              frontend that you see today on Washington 2-1-1&apos; search
+              application.
+            </p>
+            <div style={{ display: 'flex' }}>
+              <p style={{ margin: 0, marginRight: '1rem' }}>
+                <a
+                  href="https://search.wa211.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Web Application
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </Box>
+
+      <Box style={{ margin: '0 auto', width: '100%', maxWidth: 960 }}>
+        <div
+          style={{
+            display: 'flex',
+            marginBottom: '1rem',
+            padding: '1rem',
+            boxShadow: '1px 1px 11px rgba(0,0,0, 0.8)',
+          }}
+        >
+          <div style={{ width: 150, height: 150, marginRight: 10 }}>
             <img src="/npmjs.jpg" alt="" width="100%" height="auto" />
           </div>
           <div style={{ flex: 1 }}>
