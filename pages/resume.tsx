@@ -12,7 +12,7 @@ function Resume() {
 
       <object
         type="application/pdf"
-        data="/resume.pdf"
+        data="/ChrisShort.pdf"
         width="100%"
         style={{ height: 'calc(100vh - 82px)' }}
       >
